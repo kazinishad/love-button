@@ -9,6 +9,8 @@ function buttons(){
     btnn.classList.remove('hidden');
     const titlee=document.getElementById('title');
     titlee.classList.remove('hidden');
+    const img=document.getElementById('img');
+    img.classList.add('hidden');
 }
 function buttonss(){
     document.body.style.backgroundColor='crimson';
@@ -21,6 +23,8 @@ function buttonss(){
     btnn.classList.add('hidden');
     const titlee=document.getElementById('title');
     titlee.classList.add('hidden');
+    const img=document.getElementById('img');
+    img.classList.remove('hidden');
 }
 function secrets(){
     
